@@ -18,12 +18,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Worked with many companies <br /> and picked up many skills along the
-          way
+          Работал с разными компаниями получил разнообразные навыки
         </p>
 
         <Link to="/about" className="neo-brutalism-white neo-btn">
-          Learn more
+          Узнать больше
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
@@ -34,12 +33,12 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium text-center sm:text-xl">
-          Led multiple projects to success over the years. <br /> Curious about
-          the impact?
+          Привёл к успеху множество проектов за годы работы. Хотите узнать
+          подробности?
         </p>
 
         <Link to="/projects" className="neo-brutalism-white neo-btn">
-          Visit my portfolio
+          Посмотреть мое портфолио
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
@@ -50,12 +49,12 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Need a project done or looking for a dev? <br /> I'm just a few
-          keystrokes away
+          Знаю, что нужно вашему проекту! Не ждите особого дня! Давайте обсудим
+          проект уже сегодня!
         </p>
 
         <Link to="/contact" className="neo-brutalism-white neo-btn">
-          Let's talk
+          Свяжитесь со мной
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>

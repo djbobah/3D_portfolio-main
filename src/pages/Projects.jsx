@@ -15,11 +15,11 @@ const Projects = () => {
       </h1>
 
       <p className="text-slate-500 mt-2 leading-relaxed">
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+        За эти годы я участвовал во множестве проектов, но эти мне ближе всего к
+        сердцу. Многие из них с открытым исходным кодом, поэтому, если вы
+        столкнетесь с чем-то, что вызовет у вас интерес, не стесняйтесь изучать
+        кодовую базу и вносить свои идеи для дальнейших улучшений. Я высоко ценю
+        ваше сотрудничество!
       </p>
 
       <div className="flex flex-wrap my-20 gap-16">
@@ -48,7 +48,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="font-semibold text-blue-600"
                 >
-                  Live Link
+                  Ссылка на проект
                 </Link>
                 <img
                   src={arrow}
